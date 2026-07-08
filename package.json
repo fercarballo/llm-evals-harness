@@ -1,0 +1,23 @@
+{
+  "name": "llm-evals-harness",
+  "version": "1.0.0",
+  "description": "Harness de evaluación (evals) para una aplicación con IA no determinista.",
+  "author": "Fernando Carballo",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "evals": "tsx evals/run-evals.ts"
+  },
+  "keywords": ["llm-testing", "evals", "ai-quality", "llm-as-judge", "sdet"],
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0"
+  }
+}

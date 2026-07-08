@@ -1,0 +1,15 @@
+[
+  { "input": "Me cobraron dos veces la suscripción este mes", "expected": "billing" },
+  { "input": "Quiero un reembolso de mi último pago con tarjeta", "expected": "billing" },
+  { "input": "¿Por qué me llegó un cargo extra en la factura?", "expected": "billing" },
+  { "input": "La aplicación no carga, me tira un error al abrirla", "expected": "technical" },
+  { "input": "La pantalla de inicio se queda colgada y va muy lenta", "expected": "technical" },
+  { "input": "Encontré un bug: el botón de guardar no funciona", "expected": "technical" },
+  { "input": "No puedo ingresar a mi cuenta, olvidé la contraseña", "expected": "account" },
+  { "input": "Quiero cambiar el email de acceso de mi usuario", "expected": "account" },
+  { "input": "¿Cómo actualizo los datos de mi perfil?", "expected": "account" },
+  { "input": "Solo quería felicitarlos, excelente servicio", "expected": "other" },
+  { "input": "¿Tienen una versión para empresas?", "expected": "other" },
+  { "input": "Hola, ¿me pueden ayudar con una consulta general?", "expected": "other" },
+  { "input": "La factura mensual no se descarga desde la app", "expected": "technical" }
+]
