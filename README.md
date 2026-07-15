@@ -150,6 +150,12 @@ Este repositorio forma parte de una suite de automatización de calidad que cubr
 9. [Tooling interno de QA](https://github.com/fercarballo/qa-insights) — test impact + flaky detection
 10. **Evals de aplicaciones con IA** — este repositorio
 
+**Plataforma e IA aplicada (Python)**
+
+11. [Plataforma de IA + pirámide completa](https://github.com/fercarballo/ai-platform-qa-lab) — FastAPI · pytest · Playwright · evals · CI GitHub + Azure
+12. [Testing de API en Python](https://github.com/fercarballo/pytest-api-suite) — pytest + unittest · integración · contract testing
+13. [Calidad de datos como testing](https://github.com/fercarballo/data-quality-testing) — contratos Pandera + checks de integridad SQL
+
 ---
 
 ## Licencia
